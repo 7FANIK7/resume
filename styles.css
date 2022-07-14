@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+body{
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    background-color: #bcbcbc;
+}
+.container{
+    margin: auto;
+    max-width: 750px;
+    padding: 30px 40px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.45);
+}
+.info{
+    display: flex;
+}
+.info-text{
+    margin-left: 20px;
+    color: #383838;
+}
+.info-text p{
+    font-style: italic;
+    color: #86898f;
+    margin: 0px;
+}
+.info-photo{
+    border-radius: 20px;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.25);
+}
+.info-text h4{
+    margin-bottom: 10px;
+}
+@media (max-width: 650px){
+    .info{
+        display: block;
+        text-align: center;
+    }
+}
+.card{
+    size: 20px;
+    border: 2px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 1px;
+    margin-top: 20px;
+    padding-bottom: 2px;
+}
+.bg-1{
+    background-color: lightcyan;
+}
+a{
+    text-decoration: none;
+    color: #808080;
+    transition: all .2s;
+}
+a:hover{
+    font-size: 25px;
+    color: orange;
+}
+a:active{
+    color:blue;
+}
+.btn{
+    border: 2px;
+    background-color: white;
+    color: #202122;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.btn:hover{
+    opacity: .65;
+}
+ 
+.list{
+    padding: 0 20px;
+}
+.list li{
+    padding-bottom: 3px;
+    color: #86898f;
+}
+.card h3{
+    color: #383838;
+    font-size: 23px;
+}
+.table{
+    padding-left: 0px;
+    padding-bottom: 10px;
+    width: 400px;
+    color: #383838;
+}
+.table td{
+    padding-bottom: 5px;
+}
+.table td:nth-child(2), td:nth-child(3){
+    color: #86898f;
+}
+.form-row{
+    display: flex;
+    margin-bottom: 10px;
+}
+@media (max-width: 650px){
+    .form-row{
+        display: block;
+    }
+}
+.form-row .place{
+    margin-right: 20px;
+    width: 50%;
+}
+.form h2{
+    text-align: center;
+    color: #383838;
+}
+.place input, .place textarea{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 5px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 17px;
+    outline: none;
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+.place label{
+    color: #86898f;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+textarea{
+    resize: none;
+}
